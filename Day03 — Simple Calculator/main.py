@@ -1,14 +1,14 @@
 def analyze_result(result):
     if result == 0:
-        print("The result is 0")
+        print("Result is Zero")
     elif result > 0 and result % 2 == 0:
-        print("The result is even and positive")
+        print("Result is Even and Positive")
     elif result > 0 and result % 2 != 0:
-        print("The result is odd and positive")
+        print("Result is Odd and Positive")
     elif result < 0 and result % 2 == 0:
-        print("The result is even and negative")
+        print("Result is Even and Negative")
     else:
-        print("The result is odd and negative")
+        print("Result is Odd and Negative")
 
 
 while True:
@@ -22,7 +22,7 @@ while True:
     choice = int(input("Enter your choice: "))
 
     if choice == 5:
-        print("Program is closed")
+        print("Program closed")
         break
 
     num1 = int(input("Enter first number: "))
@@ -40,9 +40,8 @@ while True:
             continue
         result = num1 // num2
     else:
-        print("Please enter a valid choice")
+        print("Invalid choice")
         continue
 
-    print("The result is:", result)
+    print("Result:", result)
     analyze_result(result)
-
