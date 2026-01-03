@@ -44,6 +44,64 @@ Each project is organized by day and includes a separate folder with code and RE
 - Concepts: Functions, Global variables, While loop, Real-world logic
 - Folder: `Day05_Simple_ATM_System`
 
+### Day 6 – Student Result Analyzer
+**Description:**  
+Calculate total marks, average, and grade for a student based on marks in multiple subjects.  
+
+**Concepts Used:**  
+- Dictionary for storing student data  
+- Loops (`for`)  
+- Conditional statements (`if`, `elif`, `else`)  
+- Functions  
+
+**Key Features:**  
+- Input student name and marks  
+- Calculate total and average  
+- Determine grade (A+, A, B+, etc.)  
+- Display clean result  
+
+---
+
+### Day 7 – Number List Analyzer
+**Description:**  
+Analyze a list of numbers provided by the user and calculate counts of even, odd, positive, and negative numbers.  
+
+**Concepts Used:**  
+- Lists  
+- Loops (`for` and `while`)  
+- Conditional statements (`if`, `elif`, `else`)  
+- Functions  
+- Basic arithmetic operations  
+
+**Key Features:**  
+- Enter multiple numbers (user can stop by entering 0)  
+- Count even, odd, positive, and negative numbers  
+- Find maximum, minimum, and average  
+- Display results clearly  
+
+---
+
+### Day 8 – Password Strength Checker
+**Description:**  
+Check the strength of a user-entered password based on length, character types, and special characters.  
+
+**Concepts Used:**  
+- Functions  
+- Loops (`for`)  
+- Conditional statements (`if`, `elif`, `else`)  
+- String methods: `isupper()`, `islower()`, `isdigit()`  
+- Boolean logic  
+
+**Key Features:**  
+- Analyze password for:  
+  - Minimum length (≥8)  
+  - Uppercase letter  
+  - Lowercase letter  
+  - Digit  
+  - Special character  
+- Assign strength level: Weak ❌, Medium ⚠, Strong ✅  
+- Give clear feedback to the user 
+
 ---
 
 ## How to Run a Project
